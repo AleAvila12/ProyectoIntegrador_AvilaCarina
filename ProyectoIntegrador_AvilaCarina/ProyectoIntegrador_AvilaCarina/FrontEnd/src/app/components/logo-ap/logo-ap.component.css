@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes{
+    margin-right: 0.5em;
+}
+#logoAP{
+    width: 150px;
+}
+img{
+    width: 50px;
+}
+.button {
+    background-color: #faebda;
+    color: black;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: rgb(133, 130, 130);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    float: right;
+    font-size: 10px;
+    margin: 15px 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  .button:hover{
+    background-color: #393838;
+    color: white;
+  }
+
+  /*para la vista del celular*/
+@media(max-width:575px){
+.container{
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redes img{
+    margin: 0.5em;
+}
+}

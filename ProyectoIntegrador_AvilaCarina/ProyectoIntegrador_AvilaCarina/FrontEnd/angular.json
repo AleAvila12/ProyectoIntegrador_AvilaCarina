@@ -5,7 +5,11 @@
   "projects": {
     "ProyectoIntegrador_AvilaCarina": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -87,12 +91,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "ProyectoIntegrador_AvilaCarina/ProyectoIntegrador_AvilaCarina/node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "ProyectoIntegrador_AvilaCarina/ProyectoIntegrador_AvilaCarina/node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d9e6327f-9994-4148-8c84-73de9277e500"
   }
 }

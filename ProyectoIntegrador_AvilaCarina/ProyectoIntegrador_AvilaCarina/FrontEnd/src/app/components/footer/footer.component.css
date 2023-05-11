@@ -1,0 +1,12 @@
+div{
+    background-color: #FFF9F2;
+    padding: 20px;
+}
+footer{
+    color: rgb(244, 186, 115);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px -2px 5px #f5e2cc;
+}
